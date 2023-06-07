@@ -1,0 +1,38 @@
+.mainCloud {
+    width: 100%;
+    height: 1012px;
+    background: url(../img/visual_bg.png) no-repeat center bottom;
+    position: relative;
+    left: 0;
+    top: 550px;
+    z-index: 10;
+}
+
+.mainSection {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 10px;
+    position: relative;
+    z-index: 20;
+}
+
+.mainFigure {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    margin: 0 !important;
+    overflow: hidden;
+}
+
+.pointer {
+    position: absolute;
+    background: url(../img/cloud.png) no-repeat center;
+    background-size:90%;
+    /* background-color: #afd6ff;
+    border-radius: 50%; */
+    width: 30px;
+    height: 20px;
+    left: 12px;
+    top: 15px;
+}
