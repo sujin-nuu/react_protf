@@ -28,11 +28,51 @@
 .pointer {
     position: absolute;
     background: url(../img/cloud.png) no-repeat center;
-    background-size:90%;
+    background-size: 90%;
     /* background-color: #afd6ff;
     border-radius: 50%; */
     width: 30px;
     height: 20px;
     left: 12px;
     top: 15px;
+}
+
+.nav {
+    font-family: 'RixInoo Reg';
+    display: flex;
+    justify-content: start;
+}
+
+.menuItem {
+    margin-right: 2rem;
+    text-shadow: rgb(53, 53, 53) 1px 2px 3px;
+    color: white;
+    -webkit-text-stroke: 0.5px rgb(161, 161, 161);
+    font-size: 1.2rem;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.cloudEmoj{
+    color: white;
+    -webkit-text-stroke: 1px rgb(122, 122, 122);
+    margin: 10px;
+}
+
+.noDrag{
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+@font-face {
+    font-family: "RixInoo Reg";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../font/RixInooAriDuri_Pro\ Regular.otf") format("woff");
 }
