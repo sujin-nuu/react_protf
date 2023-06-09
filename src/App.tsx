@@ -1,13 +1,15 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { MainRouter } from './routes';
 
 function App() {
 
   return (
-    <BrowserRouter>
-      <MainRouter />
-    </BrowserRouter>
+    <Suspense fallback={<>LOADING</>}>
+      <BrowserRouter>
+        <MainRouter />
+      </BrowserRouter>
+    </Suspense>
   );
 }
 

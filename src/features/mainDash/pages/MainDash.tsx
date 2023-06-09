@@ -10,7 +10,7 @@ const MainDash = () => {
             }}>
             
             <div style={{width: '100%'}}>
-                <h2>1111</h2>
+                <h2>MAIN</h2>
             </div>
         </div>
     )

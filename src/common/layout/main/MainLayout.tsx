@@ -1,7 +1,8 @@
 import { useState } from "react";
-import { Outlet } from "react-router-dom"
+import { Outlet, useNavigate } from "react-router-dom"
 import 'src/assets/css/main.css';
 import cloudIcon from 'src/assets/img/cloud.png';
+import { ROUTE_CAREER, ROUTE_CONTACT, ROUTE_PORTFOLIO } from "src/routes/const";
 
 export const MainLayout = () => {
 
@@ -13,6 +14,8 @@ export const MainLayout = () => {
 
         setXY({ x: mouseX, y: mouseY });
     }
+
+    const navigate = useNavigate();
 
     return (
         <div
@@ -33,13 +36,22 @@ export const MainLayout = () => {
                     <img src={cloudIcon} width={60} height={60} alt="mainIcon" />
                 </div>
                 <div className="nav" style={{ width: '80%', marginTop: '1.5rem' }}>
-                    <span className="menuItem">
+                    <span
+                        className="menuItem"
+                        onClick={()=> navigate(ROUTE_CAREER)}
+                    >
                         Career
                     </span>
-                    <span className="menuItem">
+                    <span
+                        className="menuItem"
+                        onClick={()=> navigate(ROUTE_PORTFOLIO)}
+                    >
                         Portfolio
                     </span>
-                    <span className="menuItem">
+                    <span
+                        className="menuItem"
+                        onClick={()=> navigate(ROUTE_CONTACT)}
+                    >
                         contact
                     </span>
                 </div>
@@ -50,7 +62,7 @@ export const MainLayout = () => {
             <div
                 className="content">
                 <div style={{ width: '10%' }} >
-                    <div 
+                    <div
                         className="noDrag"
                         style={{ textCombineUpright: 'none', writingMode: 'vertical-lr', textOrientation: 'upright', margin: '1rem', position: 'fixed' }}>
                         <span>HELLO</span>
