@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkportf=self.webpackChunkportf||[]).push([[611],{611:function(e,t,r){r.r(t);var h=r(184);t.default=function(){return(0,h.jsx)("div",{style:{width:"100%",height:"100%",backgroundColor:"#FFFFFF"},children:(0,h.jsx)("div",{style:{width:"100%"},children:(0,h.jsx)("h2",{children:"MAIN"})})})}}}]);
+//# sourceMappingURL=611.ba336dd1.chunk.js.map

@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react_protf/static/css/main.72fc2251.css",
+    "main.js": "/react_protf/static/js/main.61fac28b.js",
+    "static/js/611.ba336dd1.chunk.js": "/react_protf/static/js/611.ba336dd1.chunk.js",
+    "static/js/508.3d802444.chunk.js": "/react_protf/static/js/508.3d802444.chunk.js",
+    "static/js/501.62bb363b.chunk.js": "/react_protf/static/js/501.62bb363b.chunk.js",
+    "static/js/70.206330e1.chunk.js": "/react_protf/static/js/70.206330e1.chunk.js",
+    "static/js/787.bbb9142f.chunk.js": "/react_protf/static/js/787.bbb9142f.chunk.js",
+    "static/media/RixInooAriDuri_Pro Regular.otf": "/react_protf/static/media/RixInooAriDuri_Pro Regular.20cfe40846845611b8ee.otf",
+    "static/media/visual_bg.png": "/react_protf/static/media/visual_bg.48f7d2efe1bcf967042a.png",
+    "index.html": "/react_protf/index.html",
+    "main.72fc2251.css.map": "/react_protf/static/css/main.72fc2251.css.map",
+    "main.61fac28b.js.map": "/react_protf/static/js/main.61fac28b.js.map",
+    "611.ba336dd1.chunk.js.map": "/react_protf/static/js/611.ba336dd1.chunk.js.map",
+    "508.3d802444.chunk.js.map": "/react_protf/static/js/508.3d802444.chunk.js.map",
+    "501.62bb363b.chunk.js.map": "/react_protf/static/js/501.62bb363b.chunk.js.map",
+    "70.206330e1.chunk.js.map": "/react_protf/static/js/70.206330e1.chunk.js.map",
+    "787.bbb9142f.chunk.js.map": "/react_protf/static/js/787.bbb9142f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72fc2251.css",
+    "static/js/main.61fac28b.js"
+  ]
+}
